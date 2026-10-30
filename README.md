@@ -174,12 +174,4 @@ retry policies, improved memory-capacity estimation, automated model
 lifecycle management, and broader benchmark comparisons. These are
 future possibilities and are not claimed as implemented features.
 
-## Contributing
-
-Contributions and suggestions are welcome. For a proposed change:
-
-1.  Create a branch for the change.
-2.  Keep resource-safety behavior explicit and testable.
-3.  Run relevant tests.
-4.  Describe the change and its expected impact in the pull request.
 
