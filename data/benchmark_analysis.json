@@ -1,0 +1,74 @@
+{
+    "analyzed_at": "2026-10-24T17:49:34.547990+00:00",
+    "agent": "Benchmark Analyzer Agent",
+    "total_valid_records": 6,
+    "invalid_lines_skipped": 0,
+    "performance": {
+        "average_latency_seconds": 6.316,
+        "average_prompt_tokens_per_second": 33.325,
+        "average_generation_tokens_per_second": 39.843,
+        "average_completion_tokens": 160,
+        "average_available_ram_before_mb": 960.322,
+        "average_available_ram_after_mb": 917.518
+    },
+    "fastest_run": {
+        "run_number": 3,
+        "prompt": "Data Science",
+        "latency_seconds": 3.956
+    },
+    "slowest_run": {
+        "run_number": 6,
+        "prompt": "Large Language Model",
+        "latency_seconds": 15.465
+    },
+    "runs": [
+        {
+            "run_number": 1,
+            "timestamp": "2026-10-24T07:39:55.551044+00:00",
+            "prompt": "Large Language Model Quantization",
+            "model": "E:\\Tanishka Official\\MyAI\\llama.cpp\\model.gguf",
+            "latency_seconds": 4.703,
+            "generation_tokens_per_second": 36.78774926303032
+        },
+        {
+            "run_number": 2,
+            "timestamp": "2026-10-24T07:49:03.808754+00:00",
+            "prompt": "Large LAnguage Models",
+            "model": "E:\\Tanishka Official\\MyAI\\llama.cpp\\model.gguf",
+            "latency_seconds": 4.576,
+            "generation_tokens_per_second": 37.41533897120525
+        },
+        {
+            "run_number": 3,
+            "timestamp": "2026-10-24T10:59:59.571927+00:00",
+            "prompt": "Data Science",
+            "model": "E:\\Tanishka Official\\MyAI\\llama.cpp\\model.gguf",
+            "latency_seconds": 3.956,
+            "generation_tokens_per_second": 43.865408786986265
+        },
+        {
+            "run_number": 4,
+            "timestamp": "2026-10-24T11:05:18.447124+00:00",
+            "prompt": "Data Science",
+            "model": "E:\\Tanishka Official\\MyAI\\llama.cpp\\model.gguf",
+            "latency_seconds": 4.286,
+            "generation_tokens_per_second": 41.259831322543675
+        },
+        {
+            "run_number": 5,
+            "timestamp": "2026-10-24T11:45:34.905814+00:00",
+            "prompt": "Data Science",
+            "model": "E:\\Tanishka Official\\MyAI\\llama.cpp\\model.gguf",
+            "latency_seconds": 4.908,
+            "generation_tokens_per_second": 38.40625166819607
+        },
+        {
+            "run_number": 6,
+            "timestamp": "2026-10-24T17:39:18.401969+00:00",
+            "prompt": "Large Language Model",
+            "model": "E:\\Tanishka Official\\MyAI\\llama.cpp\\model.gguf",
+            "latency_seconds": 15.465,
+            "generation_tokens_per_second": 41.32400017361278
+        }
+    ]
+}

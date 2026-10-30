@@ -1,0 +1,23 @@
+[project]
+name = "inferfleet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tanishka Shirode", email = "tmusicholic13@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.1.0",
+    "plotly>=7.1.0",
+    "psutil>=7.2.2",
+    "requests>=2.34.2",
+    "streamlit>=1.66.1",
+]
+
+[project.scripts]
+inferfleet = "inferfleet:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
